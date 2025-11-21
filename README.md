@@ -4,8 +4,6 @@
 
 Cüzdan Canavarı, sıradan ve sıkıcı bütçe takip uygulamalarına tepki olarak doğdu. Sen paranı çarçur ederken sessiz kalan uygulamalardan sıkılmadın mı? Bu uygulama, harcamalarına göre sana "toksik" yorumlar yapar, yüzüne acı gerçekleri vurur ve seni finansal disipline sokmak için duygusal manipülasyon (şaka şaka... ya da değil?) kullanır.
 
-![App Screenshot](assets/screenshots/app_preview.png) *(Ekran görüntüsü eklenecek)*
-
 ## 🌑 Özellikler
 
 *   **Toksik Geri Bildirimler:** Harcama limitlerini aştığında seni yargılayan, az harcadığında (nadiren) öven dinamik mesajlar.
