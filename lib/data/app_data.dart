@@ -28,14 +28,14 @@ final List<Map<String, dynamic>> categoriesData = [
           "low_spend": {
             "threshold_max": 299.0,
             "emotion": "disappointed",
-            "asset_image": "barista_sad.png", // Bu duyguya özel görsel
+            "asset_image": "grocery_sad.png", // Bu duyguya özel görsel
             "message": "Sepete sadece Ekmek + Yarım Ümit koymuşsun.",
             "animation_type": "shake",
           },
           "medium_spend": {
             "threshold_max": 649.0,
             "emotion": "neutral",
-            "asset_image": "barista_neutral.png",
+            "asset_image": "grocery_neutral.png",
             "message":
                 "Normal market. Ne fakirsin ne zenginsin… enflasyonla tokatlanıyorsun sadece.",
             "animation_type": "slide_up",
@@ -43,7 +43,7 @@ final List<Map<String, dynamic>> categoriesData = [
           "high_spend": {
             "threshold_max": double.infinity,
             "emotion": "greedy_happy",
-            "asset_image": "barista_happy.png",
+            "asset_image": "grocery_happy.png",
             "message":
                 "Bu alışveriş değil, kıtlık bölgesine yardım paketi. AFAD aradı, şaşırdı.",
             "animation_type": "bounce",

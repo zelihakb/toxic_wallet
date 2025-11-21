@@ -531,11 +531,29 @@ class _DashboardPageState extends State<DashboardPage>
                         ),
                       ),
                       child: Center(
-                        child: Icon(
-                          _getIconForEmotion(emotion),
-                          size: 40,
-                          color: Color(primaryAppColor),
-                        ),
+                        child:
+                            currentReaction != null &&
+                                currentReaction['asset_image'] != null
+                            ? ClipOval(
+                                child: Image.asset(
+                                  'assets/characters/${currentReaction['asset_image']}',
+                                  fit: BoxFit.cover,
+                                  width: 70,
+                                  height: 70,
+                                  errorBuilder: (context, error, stackTrace) {
+                                    return Icon(
+                                      _getIconForEmotion(emotion),
+                                      size: 40,
+                                      color: Color(primaryAppColor),
+                                    );
+                                  },
+                                ),
+                              )
+                            : Icon(
+                                _getIconForEmotion(emotion),
+                                size: 40,
+                                color: Color(primaryAppColor),
+                              ),
                       ),
                     )
                   : const SizedBox.shrink(),
