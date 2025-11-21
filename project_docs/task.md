@@ -1,0 +1,35 @@
+# Tasks
+
+- [/] Analyze Project Context <!-- id: 0 -->
+- [/] Analyze Project Context <!-- id: 0 -->
+- [x] Refine Dashboard & Character Animation <!-- id: 1 -->
+    - [x] Implement "peeking" animation (bottom/side sheet style)
+    - [x] Ensure character reacts to input amount (Low/Mid/High)
+    - [x] Resize animation to be smaller (bottom-left) <!-- id: 6 -->
+    - [x] Add close/dismiss button to reaction bubble <!-- id: 7 -->
+- [x] Implement Analysis Page <!-- id: 2 -->
+    - [x] Weekly/Monthly spending comparison logic
+    - [x] "Toxic" commentary on spending trends
+- [x] Implement "Parameter" (Real-time Ticker) <!-- id: 3 -->
+    - [x] Calculate average spending per second
+    - [x] Visual counter widget
+- [x] Create User/Profile Page Placeholder <!-- id: 4 -->
+- [x] Improve Input Behavior (Enter key submits) <!-- id: 8 -->
+- [x] Restore Data & Polish UI <!-- id: 9 -->
+    - [x] Verify app_data.dart integrity (Data is safe)
+    - [x] Update to Pastel Color Theme
+    - [x] Remove text from animation bubble (Icon only)
+    - [x] Add dedicated Message Area below button
+- [x] Fix Analysis Page Data Update Bug <!-- id: 10 -->
+    - [x] Refactor AnalysisPage to listen to Hive box changes
+- [x] Implement Dark Mode (Black & Red Theme) <!-- id: 11 -->
+    - [x] Update appSettings colors
+    - [x] Adjust text colors for dark background
+    - [x] Fix Dropdown Visibility (White on White bug)
+    - [x] Remove Dollar Sign Icon
+- [x] Rename "Analiz" to "Parametre" <!-- id: 13 -->
+- [x] Make User Page Real-time <!-- id: 12 -->
+- [x] Prepare for GitHub (README & Guide) <!-- id: 14 -->
+    - [x] Connect UserPage to Hive box
+    - [x] Calculate total spending for "You"
+- [x] Verify & Run <!-- id: 5 -->
